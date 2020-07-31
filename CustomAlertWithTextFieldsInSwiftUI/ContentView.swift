@@ -8,8 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var isPresented: Bool = false
+    @State private var text: String = ""
+    @State private var textFromClosure: String = ""
+    
     var body: some View {
-        Text("Hello, world!").padding()
+        ZStack {
+            VStack {
+                Text(text)
+                Button("Show alert") {
+                    isPresented = true
+                }
+                Text(textFromClosure)
+            }.padding()
+            
+            CustomAlert(isShown: $isPresented, text: $text, onDone: { text in
+                textFromClosure = text
+            })
+        }
     }
 }
 

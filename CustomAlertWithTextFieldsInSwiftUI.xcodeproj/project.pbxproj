@@ -11,6 +11,7 @@
 		9564680E24D3ED6C00E04EAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9564680D24D3ED6C00E04EAE /* ContentView.swift */; };
 		9564681024D3ED6D00E04EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9564680F24D3ED6D00E04EAE /* Assets.xcassets */; };
 		9564681324D3ED6D00E04EAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9564681224D3ED6D00E04EAE /* Preview Assets.xcassets */; };
+		9564681B24D3EDDD00E04EAE /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9564681A24D3EDDD00E04EAE /* CustomAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		9564680F24D3ED6D00E04EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9564681224D3ED6D00E04EAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9564681424D3ED6D00E04EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9564681A24D3EDDD00E04EAE /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				9564680F24D3ED6D00E04EAE /* Assets.xcassets */,
 				9564681424D3ED6D00E04EAE /* Info.plist */,
 				9564681124D3ED6D00E04EAE /* Preview Content */,
+				9564681A24D3EDDD00E04EAE /* CustomAlert.swift */,
 			);
 			path = CustomAlertWithTextFieldsInSwiftUI;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9564681B24D3EDDD00E04EAE /* CustomAlert.swift in Sources */,
 				9564680E24D3ED6C00E04EAE /* ContentView.swift in Sources */,
 				9564680C24D3ED6C00E04EAE /* CustomAlertWithTextFieldsInSwiftUIApp.swift in Sources */,
 			);
